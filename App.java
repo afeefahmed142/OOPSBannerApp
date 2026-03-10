@@ -1,20 +1,12 @@
 public class App {
-
-    // =========================
-    // Inner Static Class
-    // =========================
     static class CharacterPatternMap {
 
         private char character;
         private String[] pattern;
-
-        // Constructor
         public CharacterPatternMap(char character, String[] pattern) {
             this.character = character;
             this.pattern = pattern;
         }
-
-        // Getters
         public char getCharacter() {
             return character;
         }
